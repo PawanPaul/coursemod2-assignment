@@ -1,23 +1,27 @@
 @media (min-width: 992px){
     section{
-        width: 33.33%;
-
+        width: 25%;
+        margin: 3.5%
     }
 }
-@media (min-width: 768px and max-width: 991px){
+@media (max-width: 991px){
+    @media(min-width: 768px){
     section{
-        width: 50%;
-
+        width: 45%;
+        margin-left: 3%;
     }
+    .spread{
+        clear: left;
+        width: 90%;
+        margin: 4%;
+    }
+  }
 }
 @media (max-width: 767px){
     section{
-        width: 100%;
-
+        width: 90%;
+        margin: 5%;
     }
-}
-body{
-    box-sizing: border-box;
 }
 button{
     text-align: center;
@@ -37,11 +41,11 @@ button:hover{
     color: red;
 }
 section{
-    padding: 2em;
-    margin-right: 20px;
-    border: 1px;
-    border-color: black;
-    text-align: center;
+    box-sizing: border-box;
+    border: solid black;
+    border-width: 2px;
+    background-color: lightgray;
+    float: left;
 }
 ul{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -50,10 +54,14 @@ h1{
     font-size: 1.75em;
     text-align: center;
 }
-h3{
-    border-color: black;
-    border: 1px;
+span{
+    position: relative;
+    border: solid black;
+    border-width: 1px;
     padding: 5px;
+    width: 150px;
+    text-align: center;
+    float: right;
 }
 .start{
     background-color: burlywood;
