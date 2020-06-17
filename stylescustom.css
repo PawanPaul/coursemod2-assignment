@@ -1,0 +1,66 @@
+@media (min-width: 992px){
+    section{
+        width: 33.33%;
+
+    }
+}
+@media (min-width: 768px and max-width: 991px){
+    section{
+        width: 50%;
+
+    }
+}
+@media (max-width: 767px){
+    section{
+        width: 100%;
+
+    }
+}
+body{
+    box-sizing: border-box;
+}
+button{
+    text-align: center;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: blue;
+    text-emphasis-color: black;
+}
+button:hover{
+    background-color: cornflowerblue;
+}
+.veg{
+    color: green;
+}
+.nonveg{
+    color: red;
+}
+section{
+    padding: 2em;
+    margin-right: 20px;
+    border: 1px;
+    border-color: black;
+    text-align: center;
+}
+ul{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    font-size: 1.75em;
+    text-align: center;
+}
+h3{
+    border-color: black;
+    border: 1px;
+    padding: 5px;
+}
+.start{
+    background-color: burlywood;
+}
+.main{
+    background-color: coral;
+}
+.end{
+    background-color: #f1a3b5;
+}
